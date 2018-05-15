@@ -1,8 +1,8 @@
 body {
 margin-left:10%;
 margin-right:10%;
-background-color:#98AFC7; 
-/*color=blueish-gray*/
+background-color:#FFF5EE; 
+	/*color=seashell*/
 min-width:720px;
 margin: 0 atuo;
 }
@@ -15,8 +15,8 @@ padding:1em;
 margin:3px;	
 }	
 h1 {
-background-color:#ffb3b3;
-/*color=light pink*/
+background-color:#F9966B;
+/*color=light salmon*/
 padding:1em;
 border-width:1.5px;
 border-style:dotted;
@@ -60,11 +60,11 @@ margin: 0 auto;
 nav{
 position: fixed;
 padding: 0.50em 0.50em;
-text-decoration: none; /* no underline */
+text-decoration: none; 
 background-color:white;
 border: black solid 2px;
-border-top-left-radius: 1em 1em; /* rounded corner! */
-border-top-right-radius: 1em 1em; /* another rounded corner! */
+border-top-left-radius: 1em 1em; 
+border-top-right-radius: 1em 1em; 
 border-bottom-left-radius: 1em 1em;
 border-bottom-right-radius: 1em 1em;
 float:right;
