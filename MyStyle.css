@@ -56,6 +56,41 @@ font-family:Comic Sans MS;
 font-size:23px;
 margin: 0 auto;
 }
+table{
+	padding:1.5em;
+	border-width:5px;
+	border-style:solid;
+	border-color:black;
+	margin: 0 auto;
+	font-family:Comic Sans MS;
+	font-size:26px;
+	text-align: center;
+}
+th {
+	padding:1em;
+	border-width:2px;
+	border-style:dotted;
+	border-color:black;
+	font-size:26px;
+	background-color: #ff99ff;
+	/*color=pink*/
+	font-family:Comic Sans MS;
+}
+td {
+	padding:1em;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	background-color:#c299ff;
+	/*color=purple*/
+	font-family:Comic Sans MS;
+	font-size:26px;
+}
+caption{
+	font-family:Comic Sans MS;
+	font-size:28px;
+	margin: 0 auto;
+}
 /*navigation menu style*/
 nav{
 position: fixed;
