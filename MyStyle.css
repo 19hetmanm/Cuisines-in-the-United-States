@@ -72,8 +72,8 @@ th {
 	border-style:dotted;
 	border-color:black;
 	font-size:26px;
-	background-color: #ff99ff;
-	/*color=pink*/
+	background-color:#46C7C7;
+	/*color=jellyfish*/
 	font-family:Comic Sans MS;
 }
 td {
@@ -81,8 +81,8 @@ td {
 	border-width:2px;
 	border-style:solid;
 	border-color:black;
-	background-color:#c299ff;
-	/*color=purple*/
+	background-color:#FAAFBA;
+	/*color=light pink*/
 	font-family:Comic Sans MS;
 	font-size:26px;
 }
