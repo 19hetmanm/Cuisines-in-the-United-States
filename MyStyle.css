@@ -107,6 +107,10 @@ a.link:link, a.link:visited{
 	text-decoration:underline;
 	display:inline-block;
 	width:7.23m;
+	top: 50%;
+   	 left: 50%;
+   	 margin-right: -50%;
+
 }
 a.link:hover, a.link:active{
 	background-color:white;
