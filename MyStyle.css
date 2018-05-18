@@ -91,13 +91,6 @@ caption{
 	font-size:28px;
 	margin: 0 auto;
 }
-div#skipnav{
-	color:black;
-	text-align:center;
-	font-size:20px;
-	font-family:Trebuchet MS;
-	width:10em;
-}
 /*navigation menu style*/
 a.link:link, a.link:visited{
 	background-color:white;
