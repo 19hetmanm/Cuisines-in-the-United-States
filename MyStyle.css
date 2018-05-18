@@ -57,38 +57,38 @@ font-size:23px;
 margin: 0 auto;
 }
 table{
-	padding:1.5em;
+	padding:.50em;
 	border-width:5px;
 	border-style:solid;
 	border-color:black;
 	margin: 0 auto;
 	font-family:Comic Sans MS;
-	font-size:26px;
+	font-size:24px;
 	text-align: center;
 }
 th {
-	padding:1em;
+	padding:.50em;
 	border-width:2px;
 	border-style:dotted;
 	border-color:black;
-	font-size:26px;
+	font-size:24px;
 	background-color:#46C7C7;
 	/*color=jellyfish*/
 	font-family:Comic Sans MS;
 }
 td {
-	padding:1em;
+	padding:.50em;
 	border-width:2px;
 	border-style:solid;
 	border-color:black;
 	background-color:#FAAFBA;
 	/*color=light pink*/
 	font-family:Comic Sans MS;
-	font-size:26px;
+	font-size:24px;
 }
 caption{
 	font-family:Comic Sans MS;
-	font-size:28px;
+	font-size:26px;
 	margin: 0 auto;
 }
 /*navigation menu style*/
