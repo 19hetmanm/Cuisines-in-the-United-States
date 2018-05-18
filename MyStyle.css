@@ -100,26 +100,39 @@ div#skipnav{
 	margin-left:25em;
 }
 /*navigation menu style*/
+a.link:link, a.link:visited{
+	background-color:white;
+	padding: 14px 25px;
+	text-align:center;
+	text-decoration:underline;
+	display:inline-block;
+	width:7.23m;
+}
+a.link:hover, a.link:active{
+	background-color:white;
+	color:red;
+}
+	
 nav{
 /*padding: 0.50em 0.50em;*/
-text-decoration: none; 
+/*text-decoration: none; 
 background-color:white;
 border: black solid 2px;
 border-top-left-radius: 1em 1em; 
 border-top-right-radius: 1em 1em; 
 /*border-bottom-left-radius: 1em 1em;
 border-bottom-right-radius: 1em 1em;*/
-float:center;
+/*float:center;
 position:fixed;
 right:5px;
 left: 5px;
 top:5px;
 font-family:Comic Sans MS;
 font-size:22px;
-}
-nav a:hover, a:focus {
+}*/
+/*nav a:hover, a:focus {
 color: red;
 background-color: white;
 font-weight: bold;
 font-size:22px;
-}
+}*/
