@@ -103,13 +103,10 @@ div#skipnav{
 a.link:link, a.link:visited{
 	background-color:white;
 	padding: 14px 25px;
+	text-align:center;
 	text-decoration:underline;
 	display:inline-block;
 	width:7.23m;
-	top: 50%;
-   	 left: 50%;
-   	 margin-right: -50%;
-
 }
 a.link:hover, a.link:active{
 	background-color:white;
