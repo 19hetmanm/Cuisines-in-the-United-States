@@ -101,6 +101,7 @@ div#skipnav{
 }
 /*navigation menu style*/
 nav{
+padding: 0.25em;
 /*padding: 0.50em 0.50em;*/
 text-decoration: none; 
 background-color:white;
