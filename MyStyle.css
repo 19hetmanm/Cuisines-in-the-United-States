@@ -106,7 +106,7 @@ a.link:link, a.link:visited{
 	text-align:center;
 	text-decoration:underline;
 	display:inline-block;
-	width:7.23m;
+	width:7.23em;
 }
 a.link:hover, a.link:active{
 	background-color:white;
