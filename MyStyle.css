@@ -94,11 +94,11 @@ caption{
 /*navigation menu style*/
 a.link:link, a.link:visited{
 	background-color:white;
-	padding: 10px 10px;
-	text-align:center;
+	padding: 5px 5px;
+	text-align:left;
 	text-decoration:underline;
 	display:inline-block;
-	width:5em;
+	width:3.5em;
 }
 a.link:hover, a.link:active{
 	background-color:white;
