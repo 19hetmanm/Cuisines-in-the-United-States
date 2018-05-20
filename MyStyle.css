@@ -72,8 +72,8 @@ th {
 	border-style:dotted;
 	border-color:black;
 	font-size:24px;
-	background-color:#46C7C7;
-	/*color=jellyfish*/
+	background-color:#76D7C4;
+	/*color=light red*/
 	font-family:Comic Sans MS;
 }
 td {
@@ -81,8 +81,8 @@ td {
 	border-width:2px;
 	border-style:solid;
 	border-color:black;
-	background-color:#FAAFBA;
-	/*color=light pink*/
+	background-color:#76D7C4;
+	/*color=light coral*/
 	font-family:Comic Sans MS;
 	font-size:24px;
 }
@@ -94,11 +94,11 @@ caption{
 /*navigation menu style*/
 a.link:link, a.link:visited{
 	background-color:white;
-	padding: 14px 14px;
+	padding: 10px 10px;
 	text-align:center;
 	text-decoration:underline;
 	display:inline-block;
-	width:7em;
+	width:5em;
 }
 a.link:hover, a.link:active{
 	background-color:white;
