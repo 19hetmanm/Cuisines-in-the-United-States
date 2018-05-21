@@ -100,7 +100,7 @@ a.link:link, a.link:visited{
 	display:inline-block;
 	width:7.75em;
 	color:black;
-	font-size:17px;
+	font-size:20px;
 }
 a.link:hover, a.link:active{
 	background-color:white;
