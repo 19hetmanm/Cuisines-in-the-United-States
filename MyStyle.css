@@ -72,8 +72,8 @@ th {
 	border-style:dotted;
 	border-color:black;
 	font-size:21px;
-	background-color:#76D7C4;
-	/*color=light red*/
+	background-color:#F9966B;
+	/*color=salmon*/
 	font-family:Comic Sans MS;
 }
 td {
@@ -98,7 +98,7 @@ a.link:link, a.link:visited{
 	text-align:center;
 	text-decoration:underline;
 	display:inline-block;
-	width:4em;
+	width:6.5em;
 }
 a.link:hover, a.link:active{
 	background-color:white;
