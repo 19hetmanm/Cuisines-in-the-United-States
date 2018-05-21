@@ -99,6 +99,8 @@ a.link:link, a.link:visited{
 	text-decoration:underline;
 	display:inline-block;
 	width:7.5em;
+	color:black;
+	font-size:16px;
 }
 a.link:hover, a.link:active{
 	background-color:white;
