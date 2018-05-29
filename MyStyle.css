@@ -39,6 +39,12 @@ p {
 margin:28px;
 font-family:Comic Sans MS;
 font-size:22px;
+box-shadow:2px 5px;
+border: black solid 2px;
+border-radius: 22px;
+background-color: white;
+padding:1em;
+margin:4px;
 }
 ul {
 font-family:Comic Sans MS;
