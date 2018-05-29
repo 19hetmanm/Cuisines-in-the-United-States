@@ -91,6 +91,12 @@ caption{
 	font-size:24px;
 	margin: 0 auto;
 }
+#image{
+	align:center;
+}
+#video{
+	align:center;
+}
 /*navigation menu style*/
 a.link:link, a.link:visited{
 	background-color:white;
