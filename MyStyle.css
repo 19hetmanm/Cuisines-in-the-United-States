@@ -42,9 +42,13 @@ font-size:22px;
 }
 ul {
 background-color: white;
-margin:0 auto;
 font-size:22px;
 font-family:Comic Sans MS;
+box-shadow:2px 5px;
+border: black solid 2px;
+border-radius: 22px;
+padding:1em;
+margin:2px;	
 }
 li {
 font-family:Comic Sans MS;
