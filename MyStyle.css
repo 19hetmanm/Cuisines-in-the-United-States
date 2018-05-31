@@ -102,7 +102,7 @@ a.link:link, a.link:visited{
 	font-size:17px;
 	list-style-type: none;
 	font-family: Arial Black;
-	margin: .95em; 
+	margin: .99em; 
 }
 a.link:hover, a.link:active{
 	background-color:white;
