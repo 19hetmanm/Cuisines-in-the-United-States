@@ -5,7 +5,69 @@
 <LINK REL="shortcut icon" href="favicon_food.png">
 <script>
   function showAlert() { 
-    var myText = "Hello there. Welcome to my website!";
+    alert ("Bon Appetit!");
+  }
+    function updateTime() { 
+  	// get all parts of the current time
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+	  // add leading zero's to minutes and seconds
+  if (minutes < 10) { 
+    minutes = '0' + minutes;
+  }
+  if (seconds < 10) { 
+    seconds = '0' + seconds;
+  }				
+  // get time of day (am or pm) 
+  if (hours >= 12 && hours < 24) { 
+    var timeOfDay = 'pm';
+  }
+  else { 
+    var timeOfDay = 'am'; 
+  }			
+  // convert hours from 24-hour time to 12-hour time
+  if (hours > 12) { 
+    hours = hours - 12;
+  }
+    // splice them together into a character string named "currentTime"
+var currentTime = hours + ':' + minutes + ':' + seconds + '  ' + timeOfDay;  
+    // get the clock div 
+    var myClock = document.getElementById('clock');
+    // write the currentTime string to the clock div
+    myClock.innerHTML = currentTime;
+  }
+  </script>
+    <style>
+    div#clock { 
+	display:none;
+	border: 2px solid black;
+	color: black;
+	background-color:#EBF5FF;
+	font-family: Serif;
+	font-size:20px;
+	padding: .5em;
+    }
+    button { 
+    font-size: 1.1em;
+    background-color: #EBF5FF;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+  }
+  button:hover, button:focus, button:active { 
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer; /* displays a hand */
+  }
+  </style>
+<title>Cuisines in the United States</title></head>
+<body onload="setInterval('updateTime()',1000)"> 
+    <script>
+  function showAlert() { 
+    var myText = "Bon Appetit!";
     alert (myText);
   }
     function toggleClock() { 
@@ -31,8 +93,8 @@
     }
   }  
   </script>
-<title>Cuisines in the United States</title></head>
-<body>
+  <button onclick="showAlert()">Show alert</button> 
+  <button onclick="toggleClock()" id="clockButton">Show clock</button>
 <h1> Top 5 Cuisines in the United States</h1> 
 <br/>
  <nav><a class="link" href="index.html">Index</a>
@@ -48,10 +110,8 @@
 alt="Food Flags" />
 <br/>
 <br/>
-<div>
- <button onclick="showAlert()">Show alert</button> 
-  <button onclick="toggleClock()" id="clockButton">Show clock</button>
 <div id="clock"></div>
+<div>
  <h2> About This Website</h2>
 <p>I chose to make this webstie about some of the different cuisines in the United States because I enjoy cooking in my spare time. I mostly cook Chinese, Mexican, and Italian dishes, this website will give you common knowledge on the top 5 cuisine in the United States. Along with different dishes you can make at home and resturants you can visit to dine. 
  </p></div>
